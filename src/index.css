@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+html{
+  background-color: aqua;
+}
+
+h1{
+  background-color: beige;
+  max-width: 250px;
+  min-height: 250px;
+  border: 2px solid black;
+  border-radius: 5%;
+  margin-left: 10px;
+  filter: drop-shadow(0 0 0.75rem black);
+  padding: 10px;
+}
+
+h1:hover{
+  filter: drop-shadow(0 0 1rem black);
+}
